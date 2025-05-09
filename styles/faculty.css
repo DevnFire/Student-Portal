@@ -1,0 +1,100 @@
+.faculty-container {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.faculty-card {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.faculty-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.sidebar-wrapper {
+    background-color: #f8f9fa;
+    padding: 0;
+}
+
+.sidebar-heading {
+    color: #343a40;
+    font-weight: bold;
+    padding: 15px;
+    text-align: center;
+}
+
+.sidebar-heading i {
+    margin-right: 10px;
+}
+
+.sidebar .list-group-item {
+    background-color: transparent;
+    border: none;
+    color: #343a40;
+}
+
+.sidebar .list-group-item:hover {
+    background-color: #e9ecef;
+}
+
+.sidebar .active {
+    color: #007bff;
+}
+
+/* Updated Navbar */
+.navbar {
+    background-color: transparent;
+    padding: 10px 0;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 15px;
+}
+
+.navbar-nav .nav-link {
+    color: #343a40;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+.faculty-btn {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.faculty-btn:hover {
+    background-color: #0056b3;
+}
+
+.faculty-btn i {
+    margin-right: 8px;
+}

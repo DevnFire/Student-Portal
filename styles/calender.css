@@ -1,0 +1,53 @@
+.calendar-container {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.fc-event {
+    background-color: #28a745;
+    color: white;
+}
+
+.highlighted-day {
+    background-color: #ffdd57;
+    color: #343a40 !important;
+}
+
+.event-details {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+}
+
+.sidebar-wrapper {
+    background-color: #f8f9fa;
+    padding: 0;
+}
+
+.sidebar-heading {
+    color: #343a40;
+    font-weight: bold;
+    padding: 15px;
+    text-align: center;
+}
+
+.sidebar-heading i {
+    margin-right: 10px;
+}
+
+.sidebar .list-group-item {
+    background-color: transparent;
+    border: none;
+    color: #343a40;
+}
+
+.sidebar .list-group-item:hover {
+    background-color: #e9ecef;
+}
+
+.sidebar .active {
+    color: #007bff;
+}
